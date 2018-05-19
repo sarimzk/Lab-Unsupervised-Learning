@@ -236,9 +236,3 @@ hc.out=hclust(dist(pr.out$x[,1:5]))
 plot(hc.out, labels=nci.labs, main="Heir. Clust. on first Five Score Vectors")
 table(cutree(hc.out,4), nci.labs)
 ```
-
-***
-#Task 4
-##Summary
-
-It took me 2 days to finish this assignment. Although this assignment was just about replicating the code from the book and posting the results, I found it to be extremely helpful in understanding the concepts of the unsupervised learning, clustering and principal component analysis. The assignment was easy to complete, but understanding the underlying concepts took time and I had to refer to various other sources on the internet to understand those concepts. 
